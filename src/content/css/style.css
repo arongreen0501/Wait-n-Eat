@@ -1,0 +1,138 @@
+/* Starter template */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Starter template */
+
+body {
+    padding-top: 28px;
+}
+
+.navbar {
+    padding-top: 0;
+    background :#353535;
+}
+
+.heroBG {
+    background: url(../img/restaurant.jpg) no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+}
+
+.moreInfo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.appDescription {
+    margin-top: 60px;
+}
+
+.get_started {
+    color: #fff;
+    background: transparent;
+    border-radius: 0;
+    border-color: #50E3C2;
+}
+
+.get_started:hover {
+    background: #50E3C2;
+    border-radius: 0;
+    color: #fff;
+    transition: 0.5s;
+    border-color: transparent;
+}
+
+.heroBG h1 {
+    font-size: 63px;
+    color: #fff;
+    text-align: center;
+}
+
+.heroBG p {
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.party-form {
+    margin-bottom: 20px;
+}
+
+/* Auth styles */
+
+.form-signin {
+    max-width: 500px;
+    padding: 15px;
+    margin: 40px auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+input {
+
+}
+.form-signin input[type="email"] {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin: 20px 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-radius: 0;
+}
+
+.form-signin input[type="submit"] {
+    margin-top: 10px;
+}
+
+.btn-lg {
+    color: #fff;
+    background: #50E3C2;
+    border-radius: 0;
+    border-color: #50E3C2;
+}
+
+.btn-lg:hover {
+    background: #50E3C2;
+    border-color: #50E3C2;
+}
+
+.text-danger {
+    color: tomato;
+}
+
+.party-form {
+    margin-top: 80px;
+}
